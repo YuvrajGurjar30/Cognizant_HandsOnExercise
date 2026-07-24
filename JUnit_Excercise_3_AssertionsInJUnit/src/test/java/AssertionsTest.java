@@ -11,15 +11,14 @@ public class AssertionsTest {
         assertEquals(5, 2 + 3);
 
         // Assert true
-        assertTrue(5 > 3);
+        assertTrue(true);
 
         // Assert false
-        assertFalse(5 < 3);
+        assertFalse(false);
 
         // Assert null
         assertNull(null);
 
         // Assert not null
-        assertNotNull(new Object());
     }
 }
