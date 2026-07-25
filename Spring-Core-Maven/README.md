@@ -10,13 +10,6 @@ This folder contains the Spring Core exercises implemented using Maven as part o
 - Bean Configuration
 - Spring Bean Lifecycle
 
-## Project Structure
-- Exercise 1
-- Exercise 2
-- Exercise 3
-- Exercise 4
-- Exercise 5
-
 ## Technologies Used
 - Java
 - Spring Core
