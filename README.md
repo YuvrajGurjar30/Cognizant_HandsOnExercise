@@ -1,44 +1,57 @@
-Cognizant Digital Nurture 4.0 – Java FSE Design Pattern Exercises
+Week 4 – Spring Boot Microservices
 Overview
-
-This repository contains the solutions for the Design Pattern exercises assigned as part of the Cognizant Digital Nurture 4.0 – Full Stack Engineer (Java) learning program.
-
-The objective of these exercises is to understand and implement commonly used software design patterns in Java. Each exercise focuses on a specific design pattern and demonstrates its purpose, structure, implementation, and practical usage through real-world scenarios.
-
-Objectives
-Learn the fundamentals of software design patterns.
-Implement design patterns using Java.
-Understand where and why each pattern is used.
-Improve object-oriented design and coding practices.
-Gain hands-on experience with industry-standard programming concepts.
-Repository Structure
-
-Each exercise is maintained separately and includes:
-
-Problem statement
-Java source code
-Required classes and interfaces
-Test class for execution
-Git commit history for version tracking
-Design Patterns Covered
-
-The repository includes implementations of various design patterns, such as:
-
-Singleton Pattern
-Factory Method Pattern
-Builder Pattern
-Adapter Pattern
-Observer Pattern
-Strategy Pattern
-Decorator Pattern
-Facade Pattern
-Command Pattern
-And other patterns as assigned during the program.
+This week focuses on developing RESTful microservices using Spring Boot. Two independent microservices were created to understand the basics of microservice architecture and REST API development.
+Projects
+1. Account Microservice
+Developed using Spring Boot.
+Exposes REST APIs to retrieve account information.
+Returns account details in JSON format.
+Runs on port 8080.
+Sample Endpoint
+```
+GET /accounts/{accountNumber}
+```
+Example
+```
+http://localhost:8080/accounts/12345
+```
+---
+2. Loan Microservice
+Developed using Spring Boot.
+Exposes REST APIs to retrieve loan information.
+Returns loan details in JSON format.
+Runs on port 8081.
+Sample Endpoint
+```
+GET /loans/{loanNumber}
+```
+Example
+```
+http://localhost:8081/loans/L1001
+```
+---
 Technologies Used
-Java
-IntelliJ IDEA
-Git
-GitHub
-Learning Outcome
-
-By completing these exercises, the repository demonstrates practical knowledge of object-oriented programming principles and the implementation of reusable, maintainable, and scalable software design patterns in Java.
+Java 17
+Spring Boot
+Spring Web
+Maven
+Eclipse IDE
+---
+Learning Outcomes
+Understand the basics of Microservices Architecture.
+Create independent Spring Boot applications.
+Develop REST Controllers using Spring Boot.
+Handle path variables in REST APIs.
+Return JSON responses using Java objects.
+Configure custom server ports.
+Run multiple Spring Boot applications simultaneously.
+---
+Repository Structure
+```
+Week-4/
+├── Account/
+└── Loan/
+```
+---
+Status
+✅ Week 4 completed successfully.
