@@ -1,44 +1,129 @@
-Cognizant Digital Nurture 4.0 – Java FSE Design Pattern Exercises
-Overview
-
-This repository contains the solutions for the Design Pattern exercises assigned as part of the Cognizant Digital Nurture 4.0 – Full Stack Engineer (Java) learning program.
-
-The objective of these exercises is to understand and implement commonly used software design patterns in Java. Each exercise focuses on a specific design pattern and demonstrates its purpose, structure, implementation, and practical usage through real-world scenarios.
-
-Objectives
-Learn the fundamentals of software design patterns.
-Implement design patterns using Java.
-Understand where and why each pattern is used.
-Improve object-oriented design and coding practices.
-Gain hands-on experience with industry-standard programming concepts.
-Repository Structure
-
-Each exercise is maintained separately and includes:
-
-Problem statement
-Java source code
-Required classes and interfaces
-Test class for execution
-Git commit history for version tracking
-Design Patterns Covered
-
-The repository includes implementations of various design patterns, such as:
-
-Singleton Pattern
-Factory Method Pattern
-Builder Pattern
-Adapter Pattern
-Observer Pattern
-Strategy Pattern
-Decorator Pattern
-Facade Pattern
-Command Pattern
-And other patterns as assigned during the program.
-Technologies Used
-Java
-IntelliJ IDEA
-Git
-GitHub
-Learning Outcome
-
-By completing these exercises, the repository demonstrates practical knowledge of object-oriented programming principles and the implementation of reusable, maintainable, and scalable software design patterns in Java.
+🚀 Week 3 - Spring REST using Spring Boot 3
+![Java](https://img.shields.io/badge/Java-22-orange)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.x-brightgreen)
+![Spring Security](https://img.shields.io/badge/Spring_Security-Enabled-success)
+![REST API](https://img.shields.io/badge/REST_API-Completed-blue)
+![JWT](https://img.shields.io/badge/JWT-Implemented-red)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+---
+📖 Overview
+This module is part of the Cognizant Digital Nurture 5.0 – Java Full Stack Engineer (FSE) Deep Skilling Program.
+During this week, I developed RESTful web services using Spring Boot, implemented Spring Security, and generated JWT (JSON Web Token) for secure authentication.
+---
+📂 Exercises Completed
+✅ Exercise 1 - Spring REST Basics
+A basic RESTful web service using Spring Boot.
+Features
+Spring Boot project setup
+REST Controller
+`@RestController`
+`@GetMapping`
+Browser Testing
+Postman Testing
+Endpoint
+```http
+GET /hello
+```
+Response
+```
+Hello World!!
+```
+---
+✅ Exercise 2 - Spring REST Handson
+Developed REST APIs to retrieve country information.
+APIs Implemented
+Method	Endpoint	Description
+GET	`/countries`	Returns all countries
+GET	`/countries/{code}`	Returns country by code
+Sample Response
+```json
+\[
+  {
+    "code": "IN",
+    "name": "India"
+  },
+  {
+    "code": "US",
+    "name": "United States"
+  },
+  {
+    "code": "JP",
+    "name": "Japan"
+  }
+]
+```
+---
+✅ Exercise 5 - JWT Authentication
+Implemented authentication using Spring Security and generated a JWT token.
+Features
+Spring Security Configuration
+Basic Authentication
+Authentication REST API
+JWT Token Generation
+Secure API Testing
+Endpoint
+```http
+GET /authenticate
+```
+Authorization
+Use Basic Authentication
+Username	Password
+user	pwd
+Sample Response
+```json
+{
+  "token": "eyJhbGciOiJIUzI1NiJ9..."
+}
+```
+---
+📁 Folder Structure
+```
+Spring REST using SpringBoot-3
+│
+├── Exercise-1\_SpringRest
+│   ├── spring-learn
+│   ├── output.png
+│   ├── structure.png
+│   └── README.md
+│
+├── Exercise-2\_SpringRest
+│   ├── spring-rest-handson
+│   └── README.md
+│
+├── Exercise-5\_JWT
+│   ├── jwt-handson
+│   └── README.md
+│
+└── README.md
+```
+---
+🛠️ Technologies Used
+☕ Java 22
+🌱 Spring Boot 4
+🌐 Spring Web
+🔐 Spring Security
+🔑 JWT (JJWT)
+📦 Maven
+💻 Eclipse IDE
+📮 Postman
+🐙 Git & GitHub
+---
+🎯 Learning Outcomes
+✔ Spring Boot Project Development
+✔ REST API Development
+✔ REST Controllers and Request Mapping
+✔ Returning JSON Responses
+✔ Path Variables
+✔ Spring Security Configuration
+✔ Basic Authentication
+✔ JWT Token Generation
+✔ REST API Testing using Postman
+---
+📌 Repository Structure
+Exercise	Status
+Exercise 1 - Spring REST Basics	✅ Completed
+Exercise 2 - Spring REST Handson	✅ Completed
+Exercise 5 - JWT Authentication	✅ Completed
+---
+🎉 Status
+Week 3 Completed Successfully ✅
