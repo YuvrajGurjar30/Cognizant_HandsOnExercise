@@ -1,0 +1,29 @@
+package com.cognizant.jwt_handson.util;
+
+import java.nio.charset.StandardCharsets;
+import java.security.Key;
+import java.util.Date;
+
+import org.springframework.stereotype.Component;
+
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.security.Keys;
+
+@Component
+public class JwtUtil {
+
+    private static final String SECRET =
+            "mysecretkeymysecretkeymysecretkey12";
+
+    private final Key key =
+            Keys.hmacShaKeyFor(SECRET.getBytes(StandardCharsets.UTF_8));
+
+    public String generateToken(String username) {
+
+        return Jwts.builder()
+                .subject(username)
+                .issuedAt(new Date())
+                .signWith(key)
+                .compact();
+    }
+}
