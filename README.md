@@ -1,44 +1,90 @@
-Cognizant Digital Nurture 4.0 – Java FSE Design Pattern Exercises
-Overview
+# 🚀 Cognizant Digital Nurture 4.0 – Week 1  
+## Java Full Stack Engineer (Java FSE) Hands-On Exercises
 
-This repository contains the solutions for the Design Pattern exercises assigned as part of the Cognizant Digital Nurture 4.0 – Full Stack Engineer (Java) learning program.
+This repository contains the Week 1 hands-on exercises completed as part of the **Cognizant Digital Nurture 4.0 – Java Full Stack Engineer (Java FSE)** learning program.
 
-The objective of these exercises is to understand and implement commonly used software design patterns in Java. Each exercise focuses on a specific design pattern and demonstrates its purpose, structure, implementation, and practical usage through real-world scenarios.
+The exercises focus on strengthening Java programming skills, Object-Oriented Programming concepts, Data Structures, Design Patterns, PL/SQL programming, and Unit Testing using JUnit.
 
-Objectives
-Learn the fundamentals of software design patterns.
-Implement design patterns using Java.
-Understand where and why each pattern is used.
-Improve object-oriented design and coding practices.
-Gain hands-on experience with industry-standard programming concepts.
-Repository Structure
+---
 
-Each exercise is maintained separately and includes:
+# 📂 Repository Structure
+Week-1-Java_Cognizant_Excercises
+│
+├── Data-Structure-Algorithms
+│   ├── EcommerceSearchFunction
+│   └── Financial Forecasting
+│
+├── Design-Patterns
+│   ├── FactoryMethodPatternExample
+│   └── SingletonPatternExample
+│
+├── PL-SQL-Programming
+│   ├── Pl_Sql_Excercise_1
+│   └── Exercise-3-Stored_Procedures
+│
+├── TDD-using-JUNIT
+│   ├── JUnitSetupExample
+│   ├── Exercise-2-BasicJUnitTests
+│   ├── Exercise-3-Assertions
+│   └── Exercise-4-AAA-Pattern
+│
+└── TDD-using-Mockito
+    ├── Exercise-1-MockingAndStubbing
+    └── Exercise-2-VerifyingInteractions
 
-Problem statement
-Java source code
-Required classes and interfaces
-Test class for execution
-Git commit history for version tracking
-Design Patterns Covered
+## 🛠️ Technologies Used
 
-The repository includes implementations of various design patterns, such as:
+- Java
+- JUnit 5
+- Mockito
+- PL/SQL
+- IntelliJ IDEA
+- Git & GitHub
 
-Singleton Pattern
-Factory Method Pattern
-Builder Pattern
-Adapter Pattern
-Observer Pattern
-Strategy Pattern
-Decorator Pattern
-Facade Pattern
-Command Pattern
-And other patterns as assigned during the program.
-Technologies Used
-Java
-IntelliJ IDEA
-Git
-GitHub
-Learning Outcome
+---
 
-By completing these exercises, the repository demonstrates practical knowledge of object-oriented programming principles and the implementation of reusable, maintainable, and scalable software design patterns in Java.
+## 🎯 Learning Objectives
+
+- Understand and implement core Java programming concepts
+- Practice Data Structures and Algorithms using Java
+- Learn and apply commonly used Design Patterns
+- Develop database programming skills using PL/SQL
+- Write and execute unit tests using JUnit
+- Understand Test Driven Development (TDD) principles
+- Learn mocking and interaction verification using Mockito
+- Improve coding practices and maintainable software design
+
+---
+
+## 📚 Topics Covered
+
+### Data Structures & Algorithms
+- Searching algorithms
+- Problem-solving approaches
+- Java-based implementations
+
+### Design Patterns
+- Singleton Pattern
+- Factory Method Pattern
+
+### PL/SQL Programming
+- SQL queries and database operations
+- Stored Procedures
+- PL/SQL programming concepts
+
+### TDD using JUnit
+- JUnit setup and configuration
+- Basic unit testing
+- Assertions
+- Arrange-Act-Assert (AAA) pattern
+
+### TDD using Mockito
+- Mocking and Stubbing
+- Verifying interactions
+- Writing effective unit tests using Mockito
+
+---
+
+## ✅ Week 1 Outcome
+
+Successfully completed hands-on exercises covering Java development, algorithm implementation, software design patterns, database programming, and testing frameworks as part of the **Cognizant Digital Nurture 4.0 – Java Full Stack Engineer (Java FSE)** program.
