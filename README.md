@@ -20,7 +20,7 @@ Output
 The application displayed all records from the `country` table successfully.
 
 
-# Spring Core - Maven
+# Excercise-2 Spring Core - Maven
 
 This folder contains the Spring Core exercises implemented using Maven as part of the Cognizant learning program.
 
